@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prytech Studio | Building websites with personality</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-archivo antialiased bg-sumWhite mx-auto max-w-7xl">
+  
+  <nav class="px-2 sm:px-4 py-5 w-full z-20 top-0 left-0 bg-opacity-30 backdrop-saturate-150">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <a href="index.html/" class="flex items-center">
+      <img src="https://raw.githubusercontent.com/altBeck/pritech-img/main/logo-pureblack.svg" class="mr-3 h-10" alt="Prytech Logo">
+    </a>
+   
+    <div class="flex md:order-1">
+        
+      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex p-2 text-sm text-gray-500 rounded-lg md:hidden "aria-controls="navbar-sticky" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </button>
+    </div>
+    
+    <div class="hidden justify-between items-center  sm:text-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex text-center flex-col p-4 mt-4 rounded-lg mob:space-y-2 md:flex-row md:space-x-2 md:mt-0 md:text-sm md:font-medium md:bg-transparent">
+        
+        <li>
+          <a href="#" class="block py-2 px-6 rounded-full border-black border-2">Design</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-6 rounded-full border-black border-2">Website</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-6 rounded-full border-black border-2 md:text-black md:hover:bg-transparent">Mobile Apps</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-6 rounded-full border-black border-2 md:text-black md:hover:bg-transparent">hello@prytech.studio</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="p-4">
+    <div class="py-4">
+      <p class=" pb-10 text-3xl md:text-5xl md:w-6/12">Prytech Studio is a digital design agency that helps businesses craft products and services that improve the lives of their clients. We build interactive websites,landing pages, and 3D graphics.</p>
+      <button class="border-black border-2 hover:bg-black hover:text-white text-lg rounded-full py-3 px-8 font-semibold">Get Quote</button>
+    </div>
+  </section>
+
+  <section class="p-4">
+    <div class="mob:p-6 my-32">
+      <h1 class="text-3xl font-semibold my-10">Our Services</h1>
+      <ul class="grid md:grid-cols-2 gap-x-64 gap-y-12 md:w-4/6">
+        <li class="gap-x-8 md:flex font-medium md:font-semibold text-2xl">
+          <img class="mob:my-5" src="assets/uxdesign.png" alt="">UX/UI DESIGN
+        </li>
+
+        <li class="gap-x-8 md:flex font-medium md:font-semibold text-2xl"><img class="mob:my-5" src="assets/app dev.png" alt="">APP DEVELOPMENT</li>
+
+        <li class="gap-x-8 md:flex font-medium md:font-semibold text-2xl"><img class="mob:my-5" src="assets/3d-design.png" alt="">3D DESIGN</li>
+
+        <li class="gap-x-8 md:flex font-medium md:font-semibold text-2xl"><img class="mob:my-5" src="assets/software dev.png" alt="">WEB DEVELOPMENT</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section class="p-4">
+    <div class="my-10">
+      <h1 class="text-3xl font-semibold my-10">Featured Projects</h1>
+      <div class="bg-white rounded-3xl p-5 md:p-20 drop-shadow-lg">
+        <div class="md:flex md:gap-x-5">
+          <img class="md:w-2/4" src="assets/hoobank.png" alt="">
+          <div>
+            <h1>Hoobank Landing Page</h1>
+            <ul class="flex space-x-2">
+              <li>UX/UI Design</li>
+              <li>Web Development</li>
+            </ul>
+            <p>A fintech landing page for credit payment processing.</p>
+            <button>View Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</body>
+</html>
