@@ -698,6 +698,10 @@ html {
   width: 16rem;
 }
 
+.w-2\/4{
+  width: 50%;
+}
+
 .max-w-7xl{
   max-width: 80rem;
 }
@@ -797,6 +801,21 @@ html {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-green-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-green-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
+.bg-green-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-30{
   --tw-bg-opacity: 0.3;
 }
@@ -870,6 +889,16 @@ html {
 .px-7{
   padding-left: 1.75rem;
   padding-right: 1.75rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pt-6{
@@ -1029,6 +1058,10 @@ html {
 
   .md\:w-2\/4{
     width: 50%;
+  }
+
+  .md\:w-8\/12{
+    width: 66.666667%;
   }
 
   .md\:grid-cols-2{
