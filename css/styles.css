@@ -698,42 +698,6 @@ html {
   width: 16rem;
 }
 
-.w-72{
-  width: 18rem;
-}
-
-.w-7\/12{
-  width: 58.333333%;
-}
-
-.w-8\/12{
-  width: 66.666667%;
-}
-
-.w-9\/12{
-  width: 75%;
-}
-
-.w-10\/12{
-  width: 83.333333%;
-}
-
-.w-1\/12{
-  width: 8.333333%;
-}
-
-.w-2\/12{
-  width: 16.666667%;
-}
-
-.w-3\/12{
-  width: 25%;
-}
-
-.w-6\/12{
-  width: 50%;
-}
-
 .max-w-7xl{
   max-width: 80rem;
 }
@@ -908,20 +872,12 @@ html {
   padding-right: 1.75rem;
 }
 
-.pt-10{
-  padding-top: 2.5rem;
+.pt-6{
+  padding-top: 1.5rem;
 }
 
 .pb-10{
   padding-bottom: 2.5rem;
-}
-
-.pt-8{
-  padding-top: 2rem;
-}
-
-.pt-6{
-  padding-top: 1.5rem;
 }
 
 .text-center{
@@ -937,9 +893,9 @@ html {
   line-height: 1.25rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-lg{
@@ -947,19 +903,23 @@ html {
   line-height: 1.75rem;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.font-light{
+  font-weight: 300;
 }
 
 .font-semibold{
@@ -968,58 +928,6 @@ html {
 
 .font-medium{
   font-weight: 500;
-}
-
-.font-light{
-  font-weight: 300;
-}
-
-.leading-relaxed{
-  line-height: 1.625;
-}
-
-.leading-loose{
-  line-height: 2;
-}
-
-.leading-10{
-  line-height: 2.5rem;
-}
-
-.leading-3{
-  line-height: .75rem;
-}
-
-.leading-4{
-  line-height: 1rem;
-}
-
-.leading-5{
-  line-height: 1.25rem;
-}
-
-.leading-6{
-  line-height: 1.5rem;
-}
-
-.leading-7{
-  line-height: 1.75rem;
-}
-
-.leading-8{
-  line-height: 2rem;
-}
-
-.leading-9{
-  line-height: 2.25rem;
-}
-
-.leading-normal{
-  line-height: 1.5;
-}
-
-.leading-snug{
-  line-height: 1.375;
 }
 
 .leading-tight{
@@ -1156,20 +1064,16 @@ html {
     padding: 2.5rem;
   }
 
+  .md\:pt-4{
+    padding-top: 1rem;
+  }
+
   .md\:pr-10{
     padding-right: 2.5rem;
   }
 
   .md\:pb-10{
     padding-bottom: 2.5rem;
-  }
-
-  .md\:pt-8{
-    padding-top: 2rem;
-  }
-
-  .md\:pt-4{
-    padding-top: 1rem;
   }
 
   .md\:text-sm{
